@@ -1,0 +1,29 @@
+{
+  "name": "bookshelf-promise",
+  "version": "0.1.0",
+  "description": "An extension of the \"bluebird\" promise library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookshelf/promise.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Tim Griesser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bookshelf/promise/issues"
+  },
+  "dependencies": {
+    "bluebird": ">=0.11.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "mocha-as-promised": "~2.0.0",
+    "chai": "~1.8.1"
+  }
+}
